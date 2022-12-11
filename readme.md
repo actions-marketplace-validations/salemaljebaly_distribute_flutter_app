@@ -36,8 +36,8 @@ jobs:
       - name: Upload APK to TestApp.io
         uses: testappio/github-action@v5
         with:
-          api_token: ${{secrets.TESTAPPIO_API_TOKEN}}
-          app_id: ${{secrets.TESTAPPIO_APP_ID}}
+          api_token: ${{secrets.TESTAPPIO_API_TOKEN}} # generate from testapp.io
+          app_id: ${{secrets.TESTAPPIO_APP_ID}} # APP_ID from testapp.io
           
           file: build/app/outputs/flutter-apk/app-release.apk
           release_notes: "Testing manual debug notes..."
