@@ -1,5 +1,8 @@
 
 # [<img src="https://assets.testapp.io/logo/blue.svg" width="200" alt="TestApp.io"/>  <img width="120" src="https://docs.flutter.dev/assets/images/shared/brand/flutter/logo/flutter-lockup.png"/>](https://testapp.io/) Github Action
+
+### Testappio is simple platfrom used for testing, sharing & feedback
+
 The action from [TestApp action](https://github.com/testappio/github-action)
 
 Action used for support flutter app instead of using for android and ios separately.
