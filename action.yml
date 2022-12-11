@@ -2,6 +2,9 @@ name: "TestApp.io Flutter App Distribution"
 description: "GitHub Action that uploads Flutter App artifacts to TestApp.io App Distribution"
 author: "salemaljebaly@gmail.com"
 
+branding:
+  color: "blue"
+  icon: "arrow-up-circle"
 on:
   push:
     branches:
